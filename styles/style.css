@@ -7,21 +7,16 @@
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
 }
-
 /* shared style */
 .orange-color {
     color: #FF5400;
 }
-
 .text-gray {
     color: #424247;
 }
-
 .text-white {
     color: #FFF;
-
 }
-
 .heading-tag {
     color: #131318;
     text-align: center;
@@ -29,7 +24,6 @@
     font-weight: 800;
     line-height: 1.6rem;
 }
-
 .bg-orange {
     border-radius: 8px;
     background-color: #FF5400;
@@ -40,10 +34,7 @@
     font-weight: 800;
     width: 10.80rem;
     height: 3.25rem;
-
 }
-
-
 /* navbar style start */
 .nav-container {
     max-width: 1200px;
@@ -54,7 +45,6 @@
     display: flex;
     background-color: #FFF
 }
-
 .img-container {
     width: 50%;
     /* border: 1px solid red; */
@@ -62,35 +52,26 @@
     display: flex;
     align-items: center;
 }
-
 .img-container img {
     width: 3rem;
     height: 3.4rem;
     object-fit: cover;
 }
-
 .nav-link {
     width: 50%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
-
 .nav-link li {
     list-style: none;
-
 }
-
 .nav-link a {
     text-decoration: none;
 }
-
 .responsive-bar{
     display: none;
 }
-/* navbar end */
-
 /* banner srction start */
 main {
     margin: 0 auto;
@@ -98,9 +79,7 @@ main {
     /* margin: 50px 50px; */
     /* border: 1px solid red; */
 }
-
 .banner-img {
-
     border-radius: 10px;
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/banner.png");
     min-height: 100vh;
@@ -109,14 +88,11 @@ main {
     background-position: center;
     background-repeat: no-repeat;
 }
-
 .banner-text {
     margin: 0 auto;
     /* border: 1px solid red; */
     text-align: center;
-
 }
-
 .banner-text h1 {
     font-size: 4rem;
     text-align: center;
@@ -124,7 +100,6 @@ main {
     font-weight: 800;
     padding-top: 22%;
 }
-
 .search-menu {
     margin-top: 20px;
     border-radius: 10px;
@@ -134,28 +109,21 @@ main {
     align-items: flex-start;
     gap: 24px;
     /* border: 1px solid red; */
-
 }
-
 .search-menu .text-description {
     width: 8rem;
     height: 2rem;
     border-radius: 10px;
     text-align: center;
-
     color: rgba(19, 19, 24, 0.50);
     /* border: 1px solid blue; */
 }
-
 #btn-orange {
     background-color: #FF5400;
     color: #FFFFFF;
-
     font-weight: 700;
 }
-
 /* Our Popular Tours style   */
-
 .popular-tours {
     display: flex;
     margin: 2rem 2rem;
@@ -163,39 +131,30 @@ main {
     gap: 3rem;
     line-height: 2rem;
 }
-
 .container-text {
     width: 100%;
     color: rgba(19, 19, 24, 0.70);
     margin: 1rem;
-
     /* border:1px solid red; */
 }
-
 .container-text h2 {
     color: #131318;
     font-size: 40px;
     font-weight: 800;
-
 }
-
 .container-text li {
     padding: 2rem auto;
 }
-
 .text-p {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-
 .popular-img img {
     height: 34rem;
     width: 33.75rem;
     /* border: 1px solid red; */
 }
-
 /* destination section */
-
 .destination-section {
     margin: 2rem 2rem;
     padding: 2% 2%;
@@ -204,19 +163,15 @@ main {
     align-items: center;
     /* border: 1px solid red; */
 }
-
 .destination-section p {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     line-height: 1.6rem;
     padding: 1rem;
-
 }
 .destination-img {
     position: relative;
 }
-
-
  .destination-img img {
     height: 100%;
     width: 100%;
@@ -233,7 +188,6 @@ main {
 }
 .destination-text p{
     color: #FFF;
-
     text-align: center;
     font-family: Mulish;
     font-size: 28px;
@@ -248,31 +202,23 @@ main {
     margin: 1.4rem 1.4rem;
     justify-content: center;
 }
-
 /* why Choose us style*/
 .why-Choose-container {
-    /* border: 1px solid red; */
     margin: auto;
     padding: 2rem;
     gap: 2rem;
     width: 90%;
-    /* text-align: center; */
-    border: 1px solid blueviolet;
 }
-
 .heading-tag {
     color: #131318;
-
     text-align: center;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
 }
-
 .text-gray {
     color: rgba(19, 19, 24, 0.70);
-
     text-align: center;
     font-family: Mulish;
     font-size: 16px;
@@ -281,77 +227,57 @@ main {
     line-height: 26px;
     margin-bottom: 20px;
 }
-
 .container .sub-container {
    display: grid;
    grid-template-columns: repeat(2,1fr);
    gap: 30px;
-   
-justify-content: center
+   justify-content: center
 }
-
 .sub-container-two {
     display: flex;
     align-items: center;
     flex-direction: row;
-    margin-top: 30px;
-    
-    
+    margin-top: 30px; 
 }
-
 .box-3{
     margin: auto;
     width: 50%;
     padding: 0rem;
-
     height: 17.75rem;
     /* border: 1px solid red; */
-  
     border-radius: 16px;
 }
-
 .box-1,
 .box-2 {
     padding: 0rem;
-
     height: 17.75rem;
     /* border: 1px solid red; */
-  
     border-radius: 16px;
 }
-
 #color-1 {
-
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
 }
-
 #color-2 {
-
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
     /* border: 1px dotted red; */
 }
-
 #color-3 {
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
-
     background: rgba(233, 68, 68, 0.05);
     /* border: 1px dotted red; */
 }
-
 /* deal seaction */
 .deals-margin-space {
     margin-top: 25px;
 }
-
 .Deals-main-section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .Deals-banner {
     border-radius: 10px;
     background-image: url("../images/Group\ 39.png");
@@ -361,7 +287,6 @@ justify-content: center
     background-position: center;
     background-repeat: no-repeat;
 }
-
 .deals-main-text {
     display: flex;
     align-items: center;
@@ -374,15 +299,12 @@ justify-content: center
     float: right;
     margin: 75px 40px;
 }
-
 .deals-section-main-text {
     text-align: center;
     margin-bottom: 20px;
 }
-
 .deals-section-main-text h2 {
     color: #131318;
-
     text-align: center;
     font-family: Mulish;
     font-size: 40px;
@@ -390,10 +312,8 @@ justify-content: center
     font-weight: 800;
     line-height: normal;
 }
-
 .deals-section-main-text p {
     color: rgba(19, 19, 24, 0.70);
-
     text-align: center;
     font-family: Mulish;
     font-size: 16px;
@@ -439,7 +359,6 @@ justify-content: center
 
 .deals-text h4 {
     color: #FF5400;
-
     font-size: 20px;
     font-style: normal;
     font-weight: 800;
@@ -513,10 +432,8 @@ justify-content: center
     font-weight: 800;
     line-height: 60px;
 }
-
 .simple-place-text p {
     color: #5A5A5D;
-
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
@@ -526,7 +443,6 @@ justify-content: center
 
 .simple-place-text li {
     color: #131318;
-
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
@@ -624,7 +540,6 @@ justify-content: center
 }
 .toodos p{
     color: #FFF;
-
     text-align: center;
     font-family: Mulish;
     font-size: 24px;
@@ -635,7 +550,6 @@ justify-content: center
 }
 .toodos h5{
     color: #FFF;
-
     font-family: Mulish;
     font-size: 32px;
     font-style: normal;
@@ -660,13 +574,12 @@ footer{
 }
 footer p{
     color: #5A5A5D;
-
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 .linked_icons{
