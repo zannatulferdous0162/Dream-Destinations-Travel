@@ -81,7 +81,7 @@ main{
     margin: 0 auto;
     padding: 20px 20px;
     /* margin: 50px 50px; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .banner-img{
@@ -129,7 +129,7 @@ main{
 #btn-orange{
     background-color: #FF5400;
     color: #FFFFFF;
-    /* text-align: center; */
+    
     font-weight: 700;
 }
 /* Our Popular Tours style   */
@@ -148,6 +148,12 @@ main{
     
      /* border:1px solid red; */
 } 
+.container-text h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+
+}
  .container-text li{
     padding: 2rem auto;
 } 
@@ -155,5 +161,32 @@ main{
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+.popular-img img{
+    height: 34rem;
+    width: 33.75rem;
+    /* border: 1px solid red; */
+}
 
+/* destination section */
 
+.destination-section{
+    margin: 2rem 2rem;
+    padding: 2% 2%;
+
+    border: 1px solid red;
+}
+.destination-section p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    line-height: 26px; /* 162.5% */
+}
+
+.destination-img-container{
+    display: grid;
+    
+    height: 100%;
+    width: 100%;
+    display: inline;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+}
