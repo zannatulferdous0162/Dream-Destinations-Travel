@@ -1,9 +1,269 @@
 @media screen and (max-width: 600px) {
-    
+    main {
+        width: 90%;
+        margin: auto;
+    }
+   body{
+    width: 100%;
+   }
+   header{
+    margin: auto;
+    width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+   }
+   .nav-link{
+    display: none;
+   }
+   .responsive-bar{
+    display: inline-block;
+}
+.banner-img{
+height: 483px;
+}
+.search-menu{
+    flex-direction: column;
+}
+.popular-tours{
+    flex-direction: column;
+    align-items: center;
+}
+.popular-img img{
+    width: 335px;
+    height: 342px; 
+}
+.row{
+flex-direction: column;
+align-items: center;
+}
+.heading-tag {
+    color: #131318;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.text-gray{
+    color: rgba(19, 19, 24, 0.70);
+
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+
+.container .sub-container {
+    grid-template-columns: repeat(1,1fr);
+}
+.sub-container-two {
+    width: 315px;
+    height: 289px;
+}
+.box-1,
+.box-2,
+.box-3 {
+    width: 335px;
+    height: 289px;
+
+}
+.Deals-banner{
+    width: 335px;
+    height: 500px;
+}
+.Deals-banner-two{
+    width: 335px;
+    height: 500px;
+}
+.Deals-banner-three{
+    width: 335px;
+    height: 500px;
+}
+.deals-main-text {
+    display: none;
+}
+.deals-main-text-two{
+    display: none;
+}
+.simple-place-flex{
+   flex-direction: column;
+   align-items: center;
+}
+.simple-place-picture img{
+    width: 335px;
+height: 200px;
+}
+.news-main-flex{
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+
+}
+.news-text{
+    width: 335px;
+height: 390px;
+}
+.news-picture img{
+    width: 335px;
+height: 200px;
+}
+.input-section input{
+    width: 288px;
+    height: 52px;
+}
+.news-btn{
+    width: 288px;
+height: 52px;
+}
+.toodos{
+    width: 214.023px;
+
+}
+.foot{
+    flex-wrap: wrap; 
+}
+.linked_icons{
+flex-wrap: wrap;
+}
 }
 
 /* for large device */
 
 @media screen  and (min-width:600px) and (max-width:992px){
-    
-} 
+    main {
+        width: 90%;
+        margin: auto;
+    }
+   body{
+    width: 100%;
+   }
+   header{
+    margin: auto;
+    width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+   }
+   .nav-link{
+    display: none;
+   }
+   .responsive-bar{
+    display: inline-block;
+}
+.banner-img{
+height: 483px;
+}
+.search-menu{
+    flex-direction: column;
+}
+.popular-tours{
+    flex-direction: column;
+    align-items: center;
+}
+.popular-img img{
+    width: 335px;
+    height: 342px; 
+}
+.row{
+flex-direction: column;
+align-items: center;
+}
+.heading-tag {
+    color: #131318;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.text-gray{
+    color: rgba(19, 19, 24, 0.70);
+
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+
+.container .sub-container {
+    grid-template-columns: repeat(1,1fr);
+}
+.sub-container-two {
+    width: 315px;
+    height: 289px;
+}
+.box-1,
+.box-2,
+.box-3 {
+    width: 335px;
+    height: 289px;
+
+}
+.Deals-banner{
+    width: 335px;
+    height: 500px;
+}
+.Deals-banner-two{
+    width: 335px;
+    height: 500px;
+}
+.Deals-banner-three{
+    width: 335px;
+    height: 500px;
+}
+.deals-main-text {
+    display: none;
+}
+.deals-main-text-two{
+    display: none;
+}
+.simple-place-flex{
+   flex-direction: column;
+   align-items: center;
+}
+.simple-place-picture img{
+    width: 335px;
+height: 200px;
+}
+.news-main-flex{
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+
+}
+.news-text{
+    width: 335px;
+height: 390px;
+}
+.news-picture img{
+    width: 335px;
+height: 200px;
+}
+.input-section input{
+    width: 288px;
+    height: 52px;
+}
+.news-btn{
+    width: 288px;
+height: 52px;
+}
+.toodos{
+    width: 214.023px;
+
+}
+.foot{
+    flex-wrap: wrap; 
+}
+.linked_icons{
+flex-wrap: wrap;
+}
+}
