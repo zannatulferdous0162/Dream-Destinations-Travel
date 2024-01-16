@@ -7,16 +7,52 @@
     font-family: 'Mulish', sans-serif;
 }
 
+/* shared style */
+.orange-color{
+    color: #FF5400;
+}
+.text-gray{
+    color: #424247;
+}
+.text-white{
+    color: #FFF;
+
+}
+.heading-tag{
+   color: #131318;
+   text-align: center;
+   font-size: 40px;
+   font-weight: 800;
+}
+.bg-orange{
+   border-radius: 8px;
+   background-color: #FF5400;
+   border: none;
+   color: #FFF;
+   text-align: center;
+   font-size: 1.2rem;
+   font-weight: 800;
+   width: 10.80rem;
+   height: 3.25rem;
+
+}
+
 
 /* navbar style start */
 .nav-container{
     max-width: 1200px ;
-    /* background-color: red; */
+    padding: 20px;
     margin: 0 auto;
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    display: flex;
+    background-color: #FFF
+    
+    
 }
 .img-container{
     width: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     min-height: 20px;
     display: flex;
     align-items: center;
@@ -24,10 +60,100 @@
 .img-container img{
     width: 3rem;
     height: 3.4rem;
+    object-fit: cover;
 }
-.img-container p{
-    font-size: 36px;
+
+.nav-link{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
 }
-.orange-color{
-    color: #FF5400;
+.nav-link a{
+    text-decoration: none;
 }
+
+/* navbar end */
+
+/* banner srction start */
+main{
+    margin: 0 auto;
+    padding: 20px 20px;
+    /* margin: 50px 50px; */
+    border: 1px solid red;
+}
+
+.banner-img{
+ 
+        border-radius: 10px;
+        background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/banner.png");
+        min-height: 100vh;
+        width: 90%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;   
+    }
+    .banner-text{ 
+        margin: 0 auto;
+        /* border: 1px solid red; */
+        text-align: center;
+ 
+    }
+.banner-text h1{
+    font-size: 4rem;
+    text-align: center;
+    padding: 30px;
+    font-weight: 800;
+    padding-top:22% ;
+}
+.search-menu{
+    margin-top: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    /* border: 1px solid red; */
+    
+}
+.search-menu .text-description{
+    width:8rem ;
+    height: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    color: rgba(19, 19, 24, 0.50);
+    /* border: 1px solid blue; */
+}
+#btn-orange{
+    background-color: #FF5400;
+    color: #FFFFFF;
+    /* text-align: center; */
+    font-weight: 700;
+}
+/* Our Popular Tours style   */
+
+.popular-tours{
+    display: flex;
+    margin: 2rem 2rem;
+    padding: 2% 2%;
+    gap: 3rem;
+    line-height: 2rem;
+}
+.container-text{
+    width: 100%; 
+    color: rgba(19, 19, 24, 0.70);
+    margin: 1rem ;
+    
+     /* border:1px solid red; */
+} 
+ .container-text li{
+    padding: 2rem auto;
+} 
+.text-p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
